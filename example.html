@@ -171,9 +171,7 @@
                     element.classList.remove("selected");
 
                     const index = selectedElements.indexOf(element?.textContent.trim());
-                    if (index > -1) {
-                        selectedElements.splice(index, 1);
-                    }
+                
                     selectedBadge.style.display = "none";
                 }
             }
